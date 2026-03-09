@@ -1,0 +1,98 @@
+    body {
+        background-color: #f4f4f4; /* Light grey background like professor's */
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .main-about {
+        width: 1200px; /* Locked width to match product page */
+        margin: 40px auto;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    /* Story Section Layout */
+    .story-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+
+    .story-text {
+        width: 60%;
+    }
+
+    .story-text p {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .section-title {
+        color: #121212;
+        border-left: 5px solid #FBBF24; /* Golden accent like prof's page */
+        padding-left: 15px;
+        margin-bottom: 25px;
+    }
+
+    .founder-card {
+        width: 30%;
+        text-align: center;
+        background: #eee;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .founder-card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* Bottom Grid Layout */
+    .contact-grid {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        border-top: 1px solid #eee;
+        padding-top: 40px;
+    }
+
+    .map-container, .inquiry-container {
+        width: 48%;
+    }
+
+    .inquiry-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .inquiry-form input, .inquiry-form textarea {
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .inquiry-form button {
+        background-color: #FBBF24; 
+        color: white;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .inquiry-form button:hover {
+        background-color: #C23A2B; /* Changes to your brand red on hover */
+    }
